@@ -1,0 +1,86 @@
+#contact{
+    max-width: 100vw;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    font-family: Verdana,Tahoma, sans-serif;
+    background-color:rgb(19, 19, 19);
+   
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.contactPageTitle{
+    text-shadow:
+    0 0 1px white,
+    0 0 10px white,
+    0 0 2px white;
+}
+.link{
+    object-fit: cover;
+    border-radius: 20rem;
+    width: 3rem;
+    height: 3rem;
+}
+.contactPageTitle{
+    font-weight: 250;
+    font-size: 2.8rem;
+   
+}
+.contactDesc{
+    font-size: 1.2rem;
+    text-align: center;
+    
+
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.name{
+    background-color: #333;
+    border: none;
+    width: 55vw;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    color: white;
+}
+.email{
+    background-color: #333;
+    border: none;
+    width: 55vw;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    color: white;
+}
+.area{
+    background-color: #333;
+    border: none;
+    width: 55vw;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    color: white;
+}
+.submitBtn{
+    font-size: 1rem;
+    border: none;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}

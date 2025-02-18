@@ -1,0 +1,157 @@
+body{
+    font-family:serif;
+    background-color:rgb(19, 19, 19);
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.head{
+    font-size: 4rem;
+   align-content: center;
+    
+
+    text-shadow:
+    0 0 1px white,
+    0 0 10px white,
+    0 0 2px white;
+
+
+}
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+  }
+.back-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+  }
+.back-container {
+    position: relative;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: white;
+    background-color: #333;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 24rem;
+    font-size: 1.1rem;
+    background: transparent;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+ 
+
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    background-color: #333;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 24rem;
+    font-size: 1.1rem;
+    background: transparent;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+   
+  
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:17rem;
+    margin: 1rem;
+
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    background-color: #333;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 28rem;
+    font-size: 1.1rem;
+    background: transparent;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+    margin-top: 11.5rem;
+    
+   
+
+}
+@media(max-width:900px){
+    .card2{
+        margin-left: -10rem;
+    }
+}
+@media(max-width:700px){
+    .card2{
+        margin-left: -20rem;
+    }
+}
+@media(max-width:550px){
+    .card2{
+        margin-left: -26rem;
+        width: 26rem;
+    }
+}
+@media(max-width:430px){
+    .card2{
+        margin-left: -22rem;
+       width: 22.5rem;
+    }
+}
+/* @media(max-width:418px){
+    .card2{
+        margin-left: -21rem;
+       width: 18rem;
+    }
+} */
+@media(max-width:416px){
+    .card1{
+        width: 22rem;
+    }
+    .card2{
+        margin-left: -24.5rem;
+        
+       width: 22rem;
+    }
+    .card3{
+        width: 22rem;
+    }
+}
+@media(max-width:412px){
+    .card2{
+        margin-left: -24rem;
+        
+       width: 22rem;
+    }
+}
+h3{
+    font-size: 1.5rem;
+}
